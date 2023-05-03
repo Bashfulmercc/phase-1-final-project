@@ -2,62 +2,102 @@
     "players": [
       {
         "id": 1,
-        "name": "",
-        "image": "",
+        "name": "Michael Jordan",
+        "PPG": "30.1",
+        "RPG": "6.2",
+        "Teams": "1984-93, 1995-98 Chicago Bulls; 2001-03 Washington Wizards",
+        "Achievements": "5x MVP, 9x All-Defensive 1st Team, Rookie of the Year, 6x Finals MVP, 3x All-Star MVP, All-NBA 2nd Team, 10x All-NBA 1st Team, Defensive Player of the Year, All-Rookie 1st Team",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0509%2Fr696991_2559x3841cc.jpg&w=570&format=jpg",
         "votes": 0
       },
       {
         "id": 2,
-        "name": "",
-        "image": "",
+        "name": "Lebron James",
+        "PPG": "27.1",
+        "RPG": "7.4",
+        "Teams": "2003-10, 2014-18 Cleveland Cavaliers; 2010-14 Miami Heat; 2018-20 Los Angeles Lakers",
+        "Achievements": "2x All-NBA 3rd Team,3x All-NBA 2nd Team,4x Finals MVP,13x All-NBA 1st Team,3x All-Star MVP, All-Defensive 2nd Team,4xMVP,5x All-Defensive, 1st Team Rookie of the Year, All-Rookie 1st Team",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0509%2Fr696990_2136x2541cc.jpg&w=570&format=jpg",
         "votes": 0
       },
       {
         "id": 3,
-        "name": "",
-        "image": "",
+        "name": "Kareem Abdul-Jabbar",
+        "PPG": "24.6",
+        "RPG": "11.2",
+        "Teams": "1969-75 Milwaukee Bucks; 1975-89 Los Angeles Lakers",
+        "Achievements": "10x All-NBA 1st Team, 2x Finals MVP, 5x All-NBA 2nd Team, 6x All-Defensive 2nd Team, 5x All-Defensive 1st Team, 6x MVP, Rookie of the Year, All-Rookie 1st Team",
+        "image": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0509%2Fr696988_1690x2967cc.jpg&w=570&format=jpg",
         "votes": 0
       },
       {
         "id": 4,
-        "name": "",
-        "image": "",
+        "name": "Bill Russell",
+        "PPG": "15.1",
+        "RPG": "22.5",
+        "Teams": "1956-69 Boston Celtics",
+        "Achievements": "All-Defensive 1st Team, 8xAll-NBA 2nd Team, 5x MVP, All-Star MVP, 3xAll-NBA 1st Team",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0509%2Fr696987_2552x2209cc.jpg&w=570&format=jpg",
         "votes": 0
       },
       {
         "id": 5,
-        "name": "",
-        "image": "",
+        "name": "Magic Johnson",
+        "PPG": "19.5",
+        "RPG": "7.2",
+        "Teams": "1979-91, 1996 Los Angeles Lakers",
+        "Achievements": "2x All-Star MVP, 3xFinals MVP, 9xAll-NBA 1st Team, All-NBA 2nd Team, 3x MVP, All-Rookie 1st Team",
+        "image": "https://a2.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0509%2Fr696986_1332x2165cc.jpg&w=570&format=jpg",
         "votes": 1
       },
       {
         "id": 6,
-        "name": "",
-        "image": "",
+        "name": "Wilt Chamberlain",
+        "PPG": "30.1",
+        "RPG": "22.9",
+        "Teams": "1959-62 Philadelphia Warriors, 1962-65 San Francisco Warriors; 1965-68 Philadelphia 76ers; 1968-73 Los Angeles Lakers",
+        "Achievements": "2x All-Defensive 1st Team, Finals MVP, 3x All-NBA 2nd Team, 4x MVP, 7xAll-NBA 1st Team, Rookie of the Year, All-Star MVP",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0509%2Fr696985_2513x2990cc.jpg&w=570&format=jpg",
         "votes": 0
       },
       {
         "id": 7,
-        "name": "",
-        "image": "",
+        "name": "Larry Bird",
+        "PPG": "24.3",
+        "RPG": "10.0",
+        "Teams": "1979-92 Boston Celtics",
+        "Achievements": "All-NBA 2nd Team, 9x All-NBA 1st Team, 3x MVP, 2x Finals MVP, 3x All-Defensive 2nd Team, All-Star MVP, Rookie of the Year, All-Rookie 1st Team",
+        "image": "https://a3.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0509%2Fr696984_1357x2076cc.jpg&w=570&format=jpg",
         "votes": 0
       },
       {
         "id": 8,
-        "name": "",
-        "image": "",
+        "name": "Tim Duncan",
+        "PPG": "19.0",
+        "RPG": "10.8",
+        "Teams": "1997-2016 San Antonio Spurs",
+        "Achievements": "2x All-NBA 3rd Team, 7x All-Defensive 2nd Team, Twyman-Stokes Teammate of the Year Award, 10x All-NBA 1st Team, 3x All-NBA 2nd Team, 8x All-Defensive 1st Team, 3x Finals MVP, 2x MVP, All-Star MVP, Rookie of the Year, All-Rookie 1st Team",
+        "image": "https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0509%2Fr696982_1775x2481cc.jpg&w=570&format=jpg",
         "votes": 0
       },
       {
         "id": 9,
-        "name": "",
-        "image": "",
+        "name": "Kobe Bryant",
+        "PPG": "25.0",
+        "RPG": "5.2",
+        "Teams": "1996-2016 Los Angeles Lakers",
+        "Achievements": "11x All-NBA 1st Team, All-Defensive 2nd Team, 3x All-Defensive 2nd Team, All-Defensive 1st Team, 9x All-Defensive 1st Team, 4x All-Star MVP, 2x Finals MVP, 2x All-NBA 3rd Team, 2x All-NBA 2nd Team",
+        "image": "https://a1.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0509%2Fr696981_854x1386cc.jpg&w=570&format=jpg",
         "votes": 0
       },
       {
         "id": 10,
-        "name": "",
-        "image": "",
+        "name": "Shaquille O'Neal",
+        "PPG": "23.7",
+        "RPG": "10.9",
+        "Teams": "1992-96 Orlando Magic; 1996-2004 Los Angeles Lakers; 2004-08 Miami Heat; 2008-09 Phoenix Suns; 2009-10 Cleveland Cavaliers; 2010-11 Boston Celtics",
+        "Achievements": "4x All-NBA 3rd Team, 3x All-Star MVP, 8x All-NBA 1st Team, 3x All-Defensive 2nd Team, 3x Finals MVP, All-NBA 2nd Team, Rookie of the Year, All-Rookie 1st Team",
+        "image": "https://a4.espncdn.com/combiner/i?img=%2Fphoto%2F2020%2F0508%2Fr696686_2205x2931cc.jpg&w=570&format=jpg",
         "votes": 0
       }
     ]
