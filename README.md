@@ -47,3 +47,4 @@ https://www.espn.com/nba/player/bio/_/id/215/tim-duncan
 https://www.espn.com/nba/player/bio/_/id/110/kobe-bryant
 
 *Shaquille O'Neal Bio Retrieved from
+https://www.espn.com/nba/player/bio/_/id/614/shaquille-oneal
