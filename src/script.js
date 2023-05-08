@@ -38,6 +38,11 @@ document.addEventListener("DOMContentLoaded", () => {
   const playerContainer = document.querySelector(".container");
   const form = document.querySelector(".add-player-form")
   form.addEventListener("submit", addYourPlayer)
+  document.addEventListener("click", (e) => {
+    if(e.target.matches(".vote-btn")){
+      updateVotes(e)
+    }
+  })
   let addPlayer = false;
   playerContainer.style.display = "none";
   addBtn.addEventListener("click", () => {
@@ -50,8 +55,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
   getPlayers()
 });
-
-
 
 function addYourPlayer(e) {
   e.preventDefault()
@@ -82,4 +85,29 @@ function addYourPlayer(e) {
   image.value = ""
 }
 
-
+function updateVotes(e) {
+  e.preventDefault()
+  const p = e.target.parentElement.querySelector("p")
+  const playerId = e.target.id
+  const hasVoted = localStorage.getItem(`votes_${playerId}`) === "true"
+  if (hasVoted) {
+    alert("You have already voted for this player!")
+    return
+  }
+  const updatedVotes = parseInt(p.dataset.votes, 10) + 1
+  fetch(`http://localhost:3000/players/${playerId}`, {
+    method: "PATCH",
+    headers: {
+      "content-type": "application/json"
+    },
+    body: JSON.stringify({
+      votes: updatedVotes
+    })
+  })
+  .then(resp => resp.json())
+  .then(resp => {
+    p.dataset.votes = updatedVotes
+    p.innerText = `${updatedVotes} votes`
+    localStorage.setItem(`votes_${playerId}`, "true")
+  })
+}
