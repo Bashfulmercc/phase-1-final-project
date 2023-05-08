@@ -33,3 +33,53 @@ function getPlayers() {
   .then(data => data.forEach(player => populatePlayers(player)))
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+  const addBtn = document.querySelector("#create-player-btn");
+  const playerContainer = document.querySelector(".container");
+  const form = document.querySelector(".add-player-form")
+  form.addEventListener("submit", addYourPlayer)
+  let addPlayer = false;
+  playerContainer.style.display = "none";
+  addBtn.addEventListener("click", () => {
+    addPlayer = !addPlayer;
+    if (addPlayer) {
+      playerContainer.style.display = "block";
+    } else {
+      playerContainer.style.display = "none";
+    }
+  });
+  getPlayers()
+});
+
+
+
+function addYourPlayer(e) {
+  e.preventDefault()
+  const [name, PPG, RPG, teams, achievements, image] = e.target
+
+  fetch("http://localhost:3000/players", {
+    method: "POST", 
+    headers: {
+      "content-type": "application/json"
+    },
+    body: JSON.stringify({
+      name: name.value,
+      PPG: PPG.value,
+      RPG: RPG.value,
+      teams: teams.value,
+      achievements: achievements.value,
+      image: image.value,
+      votes: 0
+    })
+  })
+  .then(resp => resp.json())
+  .then(resp => populatePlayers(resp))
+  name.value = ""
+  PPG.value = ""
+  RPG.value = ""
+  teams.value = ""
+  achievements.value = ""
+  image.value = ""
+}
+
+
