@@ -26,3 +26,10 @@ function populatePlayers(player) {
   div.append(name, PPG, RPG, teams, achievements, img, p, button)
   playerList.append(div)
 }
+
+function getPlayers() {
+  fetch("http://localhost:3000/players")
+  .then(resp => resp.json())
+  .then(data => data.forEach(player => populatePlayers(player)))
+}
+
