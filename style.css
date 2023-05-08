@@ -13,3 +13,11 @@ body {
   height: 13rem;
   width: auto;
 }
+
+#create-player-btn {
+  margin-top: 100px;
+}
+
+ .add-player-form {
+  margin-top: 110px;
+}
