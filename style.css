@@ -33,4 +33,10 @@ body {
   margin: 2rem 3rem;
 }
 
+.player-photo {
+  justify-self: center;
+  height: 480px;
+  width: 360px;
+}
+
 
