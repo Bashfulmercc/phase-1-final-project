@@ -20,4 +20,17 @@ body {
 
  .add-player-form {
   margin-top: 110px;
+  width: 60%;
 }
+
+.card {
+  text-align: center;
+  border: brown solid 5px;
+  padding: 1rem;
+  width: 50rem;
+  height: 75rem;
+  display: inline-grid;
+  margin: 2rem 3rem;
+}
+
+
