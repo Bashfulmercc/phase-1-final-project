@@ -39,4 +39,15 @@ body {
   width: 360px;
 }
 
+#create-player-btn {
+  position: relative;
+  background-color: black;
+  border: none;
+  border-radius: 5px;
+  height: 3rem;
+  width: max-content;
+  color: white;
+  font-size: 18px;
+  justify-self: center;
+}
 
